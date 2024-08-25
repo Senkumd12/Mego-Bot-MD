@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
   let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  let videoUrl = 'https://telegra.ph/file/65cfc6dd32215a624e9dc.mp4'
+  let videoUrl = 'https://telegra.ph/file/7c77b8a46acc56bb05273.mp4'
   let { name } = global.db.data.users[who]
 m.react('🔮')
-let str = `                  ✥━─━⌬ 𝒎𝒆𝒈𝒐_𝒃𝒐𝒕 ⌬━─━✥
+let str = `                  ✥━─━⌬ senku_𝒃𝒐𝒕 ⌬━─━✥
 【..≼قــســم الانــمـــي≽..】
                    ⋄━───═◞⬪⋇⬪◟═───━⋄
 ❐..🔮╎❯ .فانرت⌉
@@ -16,7 +16,8 @@ let str = `                  ✥━─━⌬ 𝒎𝒆𝒈𝒐_𝒃𝒐𝒕 ⌬�
 ❐..🔮╎❯ .الينا⌉
 ❐..🔮╎❯ .مراتي⌉
 ❐..🔮╎❯ .بنت⌉
-                    ✥━─━⌬ 𝒎𝒆𝒈𝒐_𝒃𝒐𝒕 ⌬━─━✥
+                    ✥━─━⌬ senku_𝒃𝒐𝒕 ⌬━─━✥
+                    *انتبه ليما تعانيه فانت لست ملك لنفسك*💫🌹
 `
   conn.sendMessage(m.chat, {
            video: { url: videoUrl }, caption: str,
