@@ -51,7 +51,7 @@
      ];
    }else if (/^اي$/i.test(m.text)) { 
      responses = [ 
-       '*ختك عليه 🗿*',  
+       '*وي 🗿*',  
 
      ];
      }else if (/^اهلا$/i.test(m.text)) { 
@@ -59,7 +59,7 @@
        '*اهلا♥*',  
 
      ]; 
-     }else if (/^مساء|مساء$/i.test(m.text)) { 
+     }else if (/^اء|مء$/i.test(m.text)) { 
      responses = [ 
        'مساء الخير',  
 
@@ -68,7 +68,7 @@
      responses = [ 
        '*لا تنسى ال .*',  
      ];
-            }else if (/^mego$/i.test(m.text)) { 
+            }else if (/^senku$/i.test(m.text)) { 
      responses = [ 
        '*تحت امرك حبي*',  
      ];
